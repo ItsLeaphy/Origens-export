@@ -1,0 +1,463 @@
+ORIGENS
+LOG DE ATUALIZAÇÃO DO PROJETO
+
+Registro: Auditoria inicial das ferramentas e da infraestrutura de desenvolvimento
+Data: 15 de outubro de 2026
+Status: Em andamento
+Natureza: Planejamento técnico, organização operacional e definição preliminar do ambiente de desenvolvimento
+
+1. CONTEXTO DA ATUALIZAÇÃO
+
+Esta atualização registra o início da auditoria das ferramentas que serão utilizadas pela equipe para organizar, desenvolver, testar, documentar e publicar o ORIGENS.
+
+O objetivo não é apenas reunir aplicativos capazes de auxiliar na programação. Pretende-se estabelecer um ambiente de desenvolvimento integrado, com responsabilidades bem definidas, documentação persistente, controle de versão, critérios de qualidade e continuidade operacional.
+
+O ORIGENS será desenvolvido como uma aplicação real, com potencial de operação comercial. Por esse motivo, a escolha das ferramentas deverá considerar não apenas a facilidade de desenvolvimento, mas também a confiabilidade, a segurança, a manutenção, a possibilidade de colaboração, a escalabilidade e os custos de operação.
+
+A preferência inicial é por ferramentas gratuitas que ofereçam recursos suficientes para desenvolver e validar o produto sem comprometer prematuramente o orçamento da Darkline.
+
+A gratuidade, entretanto, não será o único critério de seleção. Uma ferramenta gratuita que imponha limitações incompatíveis com o projeto, dificulte a migração ou crie dependência excessiva de um fornecedor poderá ser menos vantajosa do que uma alternativa mais adequada.
+
+O objetivo é construir uma infraestrutura tecnicamente competente, economicamente sustentável e independente de uma única plataforma de inteligência artificial.
+
+2. CONTEXTO E ESTADO ATUAL DO ORIGENS
+
+O ORIGENS é um projeto voltado à descoberta de produtos físicos comercializados por lojas locais e regionais.
+
+A proposta investigada parte da intenção de compra do consumidor. Em vez de depender exclusivamente da descoberta de lojas, o usuário procura um produto específico, identifica estabelecimentos que o comercializam e compara informações relevantes, como preço, localização e disponibilidade.
+
+A compra ou reserva com retirada presencial constitui o fluxo inicial a ser investigado. A possibilidade de entrega rápida permanece como uma expansão futura, condicionada à viabilidade operacional e econômica.
+
+O projeto ainda se encontra em fase de pesquisa e definição estratégica. A existência de uma oportunidade de mercado é uma hipótese plausível, mas a demanda específica, a adesão dos comerciantes, a confiabilidade dos dados de estoque e a viabilidade econômica ainda precisam ser demonstradas.
+
+Os Módulos 1 e 1.2 da pesquisa documental foram concluídos. A próxima etapa estratégica consiste em auditar criticamente os resultados obtidos e avançar para a comparação de categorias de produtos, identificando um território competitivo inicial.
+
+A categoria de entrada do ORIGENS ainda não foi escolhida.
+
+Essa condição influencia diretamente as decisões técnicas. A infraestrutura deve ser preparada de maneira organizada, mas a arquitetura definitiva da aplicação não deve ser escolhida antes de compreendermos os requisitos reais do produto.
+
+A equipe não deverá desenvolver funcionalidades apenas porque são tecnicamente interessantes. Cada funcionalidade deverá responder a uma necessidade identificada, a uma hipótese que precisa ser testada ou a um requisito necessário ao funcionamento do produto.
+
+3. OBJETIVO DA AUDITORIA
+
+A auditoria tem cinco objetivos principais.
+
+O primeiro é identificar as ferramentas necessárias para cada etapa do desenvolvimento, evitando lacunas operacionais e sobreposição desnecessária de recursos.
+
+O segundo é verificar quais ferramentas podem ser utilizadas gratuitamente e quais limitações podem comprometer o trabalho da equipe.
+
+O terceiro é definir como as ferramentas serão integradas, estabelecendo um fluxo de trabalho consistente entre pesquisa, planejamento, design, implementação, testes e publicação.
+
+O quarto é garantir que o conhecimento técnico e estratégico permaneça registrado em documentos e repositórios acessíveis, sem depender exclusivamente do histórico de conversas com qualquer inteligência artificial.
+
+O quinto é estabelecer critérios mínimos de qualidade e segurança para que o ORIGENS possa evoluir de um protótipo para uma aplicação efetivamente utilizável.
+
+4. FERRAMENTAS INICIALMENTE IDENTIFICADAS
+
+4.1. Figma: design e experiência do usuário
+
+O Figma foi identificado como a principal ferramenta candidata para a criação e organização visual do ORIGENS.
+
+Sua função será permitir a elaboração de fluxos de navegação, wireframes, protótipos, componentes visuais e interfaces antes da implementação em código.
+
+O Figma deverá ser utilizado para representar a experiência do consumidor e dos comerciantes, permitindo que os fluxos sejam avaliados antes de serem transformados em funcionalidades.
+
+Uma jornada como pesquisar um produto, comparar estabelecimentos e iniciar uma reserva poderá ser prototipada e revisada antes do desenvolvimento.
+
+Isso reduz o risco de investir tempo na implementação de interfaces cuja navegação ou organização não atendam às necessidades dos usuários.
+
+A equipe também deverá avaliar a criação de um sistema de design com componentes reutilizáveis, regras de espaçamento, tipografia, cores, padrões de interação e orientações de acessibilidade.
+
+A utilização de componentes consistentes facilitará a manutenção visual da aplicação e reduzirá divergências entre diferentes páginas.
+
+A ferramenta escolhida deverá ser utilizada dentro dos limites do plano gratuito disponível ou de um eventual benefício educacional para o qual os integrantes sejam elegíveis.
+
+Status: Selecionado preliminarmente.
+
+Pendências: verificar os limites atuais do plano gratuito, as condições do plano educacional e a melhor organização dos arquivos de design para colaboração.
+
+4.2. Visual Studio Code: ambiente de desenvolvimento
+
+O Visual Studio Code foi identificado como o ambiente principal candidato para o desenvolvimento da aplicação.
+
+Sua função será reunir a edição de código, o terminal, a depuração, a integração com Git e as extensões necessárias ao trabalho técnico.
+
+O ambiente deverá permitir que a equipe execute a aplicação localmente, investigue erros, realize alterações, execute testes e examine as diferenças entre versões do código.
+
+Também poderá servir como ponto de integração para ferramentas de inteligência artificial voltadas à programação.
+
+A configuração deverá ser mantida enxuta. Extensões serão adicionadas conforme a necessidade, evitando dependências desnecessárias e conflitos entre ferramentas.
+
+Quando a stack tecnológica estiver definida, será possível estabelecer as extensões recomendadas, as configurações compartilhadas e as convenções de desenvolvimento.
+
+Status: Selecionado preliminarmente.
+
+Pendências: definir a configuração inicial do ambiente, as extensões essenciais e as convenções de código após a escolha da tecnologia.
+
+4.3. ChatGPT: pesquisa, análise e auditoria
+
+O ChatGPT foi identificado como uma das principais ferramentas de apoio estratégico e técnico do projeto.
+
+Sua utilização deverá abranger pesquisa, análise de documentos, organização de requisitos, investigação de alternativas, revisão de decisões e auditoria de resultados.
+
+Na etapa estratégica, poderá auxiliar na comparação de mercados, na investigação de concorrentes e na avaliação das hipóteses comerciais do ORIGENS.
+
+Na etapa de planejamento, poderá transformar necessidades identificadas em requisitos verificáveis, critérios de aceitação e tarefas de desenvolvimento.
+
+Na etapa técnica, poderá examinar propostas de arquitetura, analisar trechos de código, investigar problemas e identificar riscos de implementação.
+
+O ChatGPT também poderá contribuir para a produção de documentação, a manutenção dos registros de continuidade e a preparação de transferências de trabalho entre integrantes da equipe ou diferentes ferramentas de IA.
+
+As pesquisas deverão distinguir evidências verificadas, alegações de terceiros, inferências, hipóteses e questões ainda não respondidas.
+
+A ferramenta não deverá ser considerada uma fonte de verdade automática. Suas conclusões precisam ser verificadas de acordo com a natureza da informação e a importância da decisão.
+
+O plano gratuito poderá ser utilizado inicialmente, respeitando os limites de uso e a disponibilidade dos recursos necessários.
+
+Status: Selecionado preliminarmente.
+
+Pendências: definir os procedimentos de pesquisa, revisão técnica, registro de decisões e transferência de contexto.
+
+4.4. Claude: implementação assistida por inteligência artificial
+
+Claude foi identificado como uma ferramenta complementar para tarefas de implementação, análise de código e trabalho com múltiplos arquivos.
+
+A proposta inicial é utilizá-lo para executar tarefas de programação delimitadas, modificar arquivos existentes, investigar problemas e produzir relatórios sobre as alterações realizadas.
+
+Quando apropriado, Claude Code poderá ser avaliado como ferramenta de trabalho diretamente conectada ao ambiente de desenvolvimento.
+
+A equipe deverá distinguir o uso do Claude pelo navegador do acesso ao Claude Code, verificando separadamente a disponibilidade, as condições de utilização e os limites de cada modalidade.
+
+A divisão preliminar de responsabilidades será a seguinte: o ChatGPT poderá auxiliar na análise do problema, na definição dos critérios de aceitação e na auditoria da solução; Claude poderá receber tarefas delimitadas de implementação e apresentar os resultados para revisão.
+
+Essa divisão constitui uma convenção operacional, não uma limitação das capacidades de cada ferramenta.
+
+O objetivo é evitar duplicação de trabalho, estabelecer responsabilidades claras e facilitar a verificação independente das alterações.
+
+Nenhuma implementação será considerada concluída apenas porque a IA informou que terminou o trabalho. O resultado deverá ser examinado no repositório, executado quando aplicável e submetido às verificações previstas.
+
+Status: Selecionado preliminarmente.
+
+Pendências: verificar o acesso efetivamente disponível ao Claude Code, os limites dos planos gratuitos e o procedimento de integração com Git e VS Code.
+
+5. GIT E GITHUB: CONTROLE DE VERSÃO E REPOSITÓRIO OFICIAL
+
+Git e GitHub constituem componentes fundamentais da infraestrutura proposta.
+
+O Git permitirá registrar as alterações do código, identificar versões, comparar mudanças e recuperar estados anteriores.
+
+O GitHub será utilizado como repositório remoto oficial do produto, além de oferecer recursos de revisão de código, organização de tarefas e automação.
+
+O repositório técnico do ORIGENS deverá ser separado do repositório de exportação da pesquisa estratégica.
+
+O repositório de exportação tem a finalidade de preservar e transportar contexto. O repositório de desenvolvimento terá a função de concentrar o código-fonte, a documentação técnica, os testes e o histórico de implementação.
+
+A equipe deverá adotar um fluxo de trabalho baseado em alterações rastreáveis. Funcionalidades e correções importantes deverão ser registradas em commits, e alterações relevantes deverão ser revisadas antes de serem incorporadas à versão principal.
+
+O uso de branches poderá ser adotado para isolar funcionalidades, experimentos e correções.
+
+O repositório deverá conter instruções para instalação, configuração, execução e testes da aplicação, de modo que outro integrante consiga reproduzir o ambiente de desenvolvimento.
+
+Também será necessário estabelecer regras para impedir que senhas, tokens, chaves de API e outras credenciais sejam incorporadas ao histórico do Git.
+
+O plano gratuito deverá ser suficiente para iniciar a organização do projeto, respeitando as cotas aplicáveis aos recursos utilizados.
+
+Status: Recomendado como infraestrutura indispensável.
+
+Pendências: criar o repositório oficial do produto, definir permissões, convenções de commits, política de branches e procedimento de revisão.
+
+6. GITHUB PROJECTS: ORGANIZAÇÃO DAS TAREFAS
+
+O GitHub Projects foi identificado como ferramenta candidata para a gestão do trabalho técnico.
+
+A intenção é manter as tarefas próximas do código e dos registros de alterações, reduzindo a fragmentação das informações entre plataformas.
+
+O fluxo inicial poderá conter os seguintes estados: Backlog, Pronto para execução, Em andamento, Em revisão, Testado e Concluído.
+
+Cada tarefa relevante deverá descrever o problema, o objetivo, o escopo, as restrições, os critérios de aceitação e as verificações esperadas.
+
+Quando a tarefa for executada por uma IA, essas informações deverão ser suficientemente claras para que o trabalho possa ser realizado sem depender de instruções dispersas em conversas anteriores.
+
+As tarefas concluídas deverão conter informações suficientes para verificar o resultado. Quando aplicável, isso incluirá testes executados, limitações conhecidas, arquivos modificados e eventuais pendências.
+
+O objetivo não é burocratizar o desenvolvimento, mas tornar o trabalho rastreável e reduzir a dependência de memória individual.
+
+Status: Recomendado.
+
+Pendências: definir o modelo de tarefas, os campos necessários, as prioridades e o processo de revisão.
+
+7. DOCUMENTAÇÃO EM MARKDOWN
+
+A documentação em Markdown será utilizada para registrar o estado do projeto e preservar o conhecimento técnico.
+
+Essa abordagem aproveita o próprio repositório GitHub e dispensa a adoção imediata de uma plataforma adicional de documentação.
+
+Os documentos deverão possuir responsabilidades distintas, evitando que decisões estratégicas, requisitos, arquitetura e registros de implementação sejam misturados indiscriminadamente.
+
+A estrutura proposta inclui:
+
+README.md: apresentação do projeto e instruções essenciais.
+
+CHANGELOG.md: registro das mudanças relevantes entre versões.
+
+PRODUCT_BRIEF.md: descrição do produto, dos usuários e do problema investigado.
+
+REQUIREMENTS.md: requisitos funcionais e não funcionais, incluindo critérios de aceitação.
+
+ARCHITECTURE.md: descrição da arquitetura e das principais decisões técnicas.
+
+DESIGN_SYSTEM.md: referências ao sistema visual e aos padrões de interface.
+
+SECURITY.md: princípios e procedimentos de segurança pertinentes ao estágio do projeto.
+
+TESTING.md: estratégia de testes e instruções de execução.
+
+DECISIONS/: registros das decisões importantes, incluindo alternativas consideradas e justificativas.
+
+HANDOFFS/: relatórios de transferência de trabalho entre pessoas, sessões ou ferramentas.
+
+Essa estrutura é preliminar e poderá ser ajustada conforme a arquitetura e o tamanho do projeto.
+
+Os documentos não deverão ser preenchidos com decisões fictícias apenas para completar a estrutura. Cada informação deverá refletir o estado real do ORIGENS.
+
+O mesmo princípio será aplicado aos registros de continuidade: devem indicar o que foi feito, o que foi verificado, o que permanece incerto e qual é o próximo passo.
+
+Status: Recomendado como padrão documental.
+
+Pendências: criar os documentos iniciais quando o repositório oficial for estabelecido e preencher cada um à medida que as decisões forem tomadas.
+
+8. TESTES AUTOMATIZADOS E CONTROLE DE QUALIDADE
+
+O projeto deverá incorporar testes automatizados progressivamente.
+
+Playwright e Vitest foram identificados como candidatos para funções distintas.
+
+O Vitest poderá ser utilizado para verificar funções, regras de negócio e comportamentos menores da aplicação em projetos compatíveis com seu ecossistema.
+
+O Playwright poderá automatizar jornadas completas em navegadores, verificando se os principais fluxos da interface continuam funcionando após alterações.
+
+A escolha definitiva dependerá da tecnologia adotada.
+
+A estratégia de qualidade deverá contemplar testes de unidades de código, integração entre componentes e fluxos essenciais do usuário, conforme as necessidades do sistema.
+
+Para o ORIGENS, possíveis fluxos críticos incluem pesquisar um produto, consultar os resultados, acessar informações de um estabelecimento e iniciar uma reserva, caso essa funcionalidade faça parte do escopo validado.
+
+Os testes deverão ser acompanhados por verificações manuais quando o comportamento visual, a acessibilidade ou a experiência do usuário não puderem ser avaliados adequadamente por automação.
+
+Uma funcionalidade não deverá ser considerada confiável apenas porque funciona em uma demonstração isolada.
+
+Status: Planejado.
+
+Pendências: definir a estratégia e as ferramentas de teste após a escolha da stack tecnológica e dos primeiros requisitos funcionais.
+
+9. INTEGRAÇÃO CONTÍNUA COM GITHUB ACTIONS
+
+O GitHub Actions foi identificado como ferramenta candidata para automatizar verificações repetitivas.
+
+Dependendo da configuração, poderá executar testes, verificações de código e outras tarefas quando alterações forem enviadas ao repositório ou quando uma solicitação de integração for aberta.
+
+A automação deverá começar pelas verificações que ofereçam maior benefício com menor complexidade.
+
+O objetivo é detectar erros antes que as alterações sejam incorporadas à versão principal ou publicadas.
+
+As cotas gratuitas e as condições aplicáveis deverão ser verificadas antes da definição dos fluxos definitivos, especialmente se o repositório for privado.
+
+Status: Planejado.
+
+Pendências: estabelecer os primeiros testes automatizados e configurar os fluxos de integração contínua após a definição do ambiente técnico.
+
+10. INFRAESTRUTURA DE HOSPEDAGEM E DADOS
+
+Foram identificadas alternativas para publicação da aplicação e gerenciamento dos dados.
+
+Cloudflare Pages poderá ser avaliado para hospedagem de uma aplicação web.
+
+Cloudflare Workers poderá ser considerado para lógica executada no servidor, quando necessário.
+
+Supabase poderá ser avaliado como solução integrada para banco de dados PostgreSQL, autenticação e armazenamento.
+
+Firebase constitui uma alternativa para serviços de backend e dados, dependendo das necessidades e do modelo de desenvolvimento escolhido.
+
+Nenhuma dessas ferramentas foi definida como infraestrutura definitiva.
+
+A seleção deverá considerar o modelo de dados, a necessidade de autenticação, o armazenamento de imagens, os requisitos de segurança, as integrações necessárias, os limites gratuitos, as condições comerciais e a possibilidade de migração.
+
+A arquitetura deverá ser escolhida de acordo com os requisitos do produto, e não apenas pela popularidade de uma tecnologia ou pela facilidade de integração com determinada IA.
+
+O plano gratuito de um serviço pode ser adequado ao desenvolvimento e à validação inicial, mas não necessariamente à operação comercial em escala.
+
+A equipe deverá examinar limites de armazenamento, tráfego, processamento, requisições, projetos ativos, disponibilidade e possíveis custos excedentes.
+
+Também será necessário verificar se os termos de uso permitem a modalidade de operação pretendida.
+
+A publicação de uma aplicação comercial não deverá depender de uma interpretação equivocada das condições de um plano gratuito.
+
+Status: Em avaliação.
+
+Pendências: comparar as opções após a definição preliminar dos requisitos técnicos do MVP.
+
+11. DOMÍNIO, CUSTOS E SUSTENTABILIDADE
+
+A preferência por ferramentas gratuitas busca reduzir o custo inicial de desenvolvimento, mas não elimina todas as despesas associadas a um produto digital.
+
+Domínio próprio, serviços de terceiros, integrações de pagamento, tráfego, armazenamento e necessidades adicionais de infraestrutura poderão gerar custos.
+
+O projeto deverá distinguir os custos de desenvolvimento dos custos de operação.
+
+Durante a fase inicial, a prioridade será utilizar recursos gratuitos adequados e evitar compromissos financeiros prematuros.
+
+Antes de qualquer lançamento comercial, deverá ser produzida uma estimativa dos custos recorrentes e dos limites de utilização dos serviços adotados.
+
+A gratuidade não deverá ser tratada como um requisito absoluto quando comprometer a segurança, a confiabilidade ou a viabilidade do produto.
+
+A decisão deverá considerar o custo total de manutenção e a possibilidade de migração para alternativas mais adequadas caso o ORIGENS cresça.
+
+Status: Princípio estabelecido para a seleção de ferramentas.
+
+Pendências: estimar custos quando a arquitetura, o volume esperado de utilização e o modelo operacional estiverem mais bem definidos.
+
+12. SEGURANÇA E GESTÃO DE CREDENCIAIS
+
+A segurança deverá ser incorporada desde o início do desenvolvimento.
+
+Chaves de API, senhas, tokens de acesso e credenciais de serviços não deverão ser inseridos diretamente no código-fonte ou em documentos públicos.
+
+O projeto deverá utilizar variáveis de ambiente e mecanismos apropriados para armazenar informações sensíveis, de acordo com o ambiente de execução.
+
+Os arquivos que contiverem credenciais locais deverão ser excluídos do controle de versão por meio de configurações adequadas, como o .gitignore.
+
+A equipe também deverá estabelecer procedimentos para conceder e revogar acessos, revisar dependências e lidar com a exposição acidental de credenciais.
+
+Quando forem introduzidos dados pessoais, contas de usuários ou transações, a arquitetura deverá contemplar requisitos adicionais de privacidade e proteção de dados.
+
+O tratamento de informações pessoais deverá ser avaliado à luz da legislação aplicável, incluindo a Lei Geral de Proteção de Dados Pessoais.
+
+O compartilhamento de código ou documentos com ferramentas de IA deverá respeitar as regras de acesso e as políticas aplicáveis aos serviços utilizados.
+
+Status: Princípio estabelecido.
+
+Pendências: detalhar os controles técnicos de segurança conforme a arquitetura e os dados tratados pela aplicação.
+
+13. FLUXO OPERACIONAL PRELIMINAR
+
+O processo de desenvolvimento proposto será organizado em etapas rastreáveis.
+
+A primeira etapa é a definição do problema e dos requisitos. O ChatGPT poderá auxiliar na análise e na organização das informações, que deverão ser registradas na documentação do projeto.
+
+A segunda etapa é o design. O Figma será utilizado para representar os fluxos e as interfaces relevantes.
+
+A terceira etapa é o planejamento. As tarefas serão registradas no GitHub Projects, com escopo definido e critérios de aceitação.
+
+A quarta etapa é a implementação. Claude poderá executar tarefas delimitadas no ambiente de desenvolvimento, utilizando o VS Code e o repositório Git.
+
+A quinta etapa é a verificação. As alterações serão examinadas, executadas e submetidas aos testes pertinentes.
+
+A sexta etapa é a revisão. As mudanças relevantes serão avaliadas antes de serem incorporadas à versão principal.
+
+A sétima etapa é a publicação. As versões aprovadas serão disponibilizadas no ambiente correspondente, quando a infraestrutura estiver definida.
+
+A oitava etapa é a documentação. As mudanças importantes, os resultados dos testes, as limitações e as decisões serão registrados para manter o contexto atualizado.
+
+Esse fluxo constitui uma referência operacional inicial. A ordem e o nível de formalidade poderão variar de acordo com a complexidade de cada tarefa.
+
+14. PRINCÍPIOS DE DESENVOLVIMENTO
+
+O desenvolvimento do ORIGENS deverá obedecer aos seguintes princípios.
+
+Rastreabilidade: decisões e alterações importantes devem possuir registros verificáveis.
+
+Separação de responsabilidades: cada ferramenta deve cumprir uma função clara, evitando duplicação desnecessária.
+
+Continuidade: o projeto deve poder ser retomado por outra pessoa ou ferramenta sem depender exclusivamente do histórico de uma conversa.
+
+Verificação: afirmações sobre testes, alterações e resultados devem corresponder a ações efetivamente executadas.
+
+Simplicidade: a infraestrutura deverá ser tão simples quanto possível, sem comprometer os requisitos reais do produto.
+
+Segurança: credenciais, dados pessoais e acessos deverão ser tratados de forma adequada desde as primeiras etapas.
+
+Independência: decisões técnicas deverão considerar a possibilidade de substituir ferramentas ou fornecedores sem reconstruir todo o projeto.
+
+Orientação ao produto: funcionalidades serão desenvolvidas em resposta a requisitos e hipóteses relevantes, e não apenas para explorar recursos tecnológicos.
+
+Sustentabilidade econômica: a seleção das ferramentas deverá considerar os limites gratuitos e os possíveis custos futuros.
+
+Documentação fiel: os registros deverão distinguir decisões aprovadas, propostas, hipóteses e pendências.
+
+15. ESTADO DAS DECISÕES
+
+Ferramentas selecionadas preliminarmente:
+
+Figma para design e prototipação.
+
+Visual Studio Code para desenvolvimento.
+
+ChatGPT para pesquisa, análise, planejamento e auditoria.
+
+Claude para apoio à implementação e análise de código.
+
+Ferramentas recomendadas para adoção:
+
+Git e GitHub para controle de versão e repositório oficial.
+
+GitHub Projects para gestão de tarefas.
+
+Markdown para documentação versionada.
+
+Ferramentas planejadas, dependentes da arquitetura:
+
+Vitest e Playwright para testes.
+
+GitHub Actions para automação de verificações.
+
+Ferramentas em avaliação:
+
+Cloudflare Pages para hospedagem.
+
+Cloudflare Workers para execução de lógica no servidor.
+
+Supabase para banco de dados e serviços associados.
+
+Firebase como alternativa de infraestrutura.
+
+Nenhuma stack tecnológica definitiva foi aprovada nesta atualização.
+
+Nenhuma infraestrutura de produção foi contratada ou definida.
+
+A seleção preliminar de uma ferramenta não deve ser interpretada como confirmação de que todos os seus recursos necessários estão disponíveis gratuitamente.
+
+16. PRÓXIMAS AÇÕES
+
+A próxima etapa será concluir a auditoria das ferramentas e das condições de utilização.
+
+Primeiro, verificar os limites e as condições atuais dos planos gratuitos do Figma, ChatGPT, Claude e Claude Code.
+
+Segundo, estabelecer o GitHub como centro de controle de versão, documentação técnica e gestão do trabalho.
+
+Terceiro, definir o protocolo de implementação assistida por IA, incluindo a preparação das tarefas, os critérios de aceitação, a revisão das alterações e os registros de continuidade.
+
+Quarto, concluir a auditoria estratégica dos Módulos 1 e 1.2 do ORIGENS e avançar para a investigação de categorias de produtos.
+
+Quinto, traduzir os requisitos identificados em uma especificação preliminar do MVP.
+
+Sexto, comparar as opções de frontend, backend, banco de dados e hospedagem à luz dos requisitos reais.
+
+Sétimo, definir a estratégia de testes, segurança, publicação e monitoramento.
+
+O desenvolvimento das funcionalidades deverá avançar quando houver clareza suficiente sobre o problema, os fluxos essenciais e a arquitetura necessária.
+
+17. CONCLUSÃO
+
+Esta atualização estabelece a base preliminar para a organização do desenvolvimento do ORIGENS.
+
+A equipe identificou um conjunto inicial de ferramentas para design, programação, pesquisa, implementação, controle de versão, gestão de tarefas, testes e documentação.
+
+A prioridade atual não é maximizar a quantidade de ferramentas utilizadas, mas garantir que as selecionadas componham um sistema de trabalho coerente.
+
+O ORIGENS deverá ser desenvolvido com documentação persistente, alterações rastreáveis, critérios claros de conclusão e verificação efetiva dos resultados.
+
+A infraestrutura tecnológica definitiva permanece em aberto até que os requisitos do produto estejam suficientemente definidos.
+
+O próximo marco será a conclusão da auditoria operacional e a formalização do ambiente de desenvolvimento, seguida da definição técnica do MVP com base nas conclusões da pesquisa estratégica.
+
+FIM DO REGISTRO
